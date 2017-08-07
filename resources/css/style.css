@@ -72,7 +72,6 @@ nav span {
   padding: 0.75rem 0;
   max-width: 960px;
   text-align: center;
-
 }
 .link {
   color: white;
@@ -109,7 +108,6 @@ nav span {
 }
 .description {
   background-color: black;
-
 }
 .info {
   display: flex;
@@ -117,8 +115,8 @@ nav span {
   justify-content: space-between;
   width: 100%;
 }
-.position {
-
+.location, .hours {
+  display: inline-flex;
   flex-direction: column;
 }
 .title {
