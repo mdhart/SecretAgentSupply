@@ -1,1 +1,140 @@
-css
+html {
+  font-size: 18px;
+  color: white;
+  font-family: Helvetica;
+}
+body{
+  display: block;
+  vertical-align: baseline;
+}
+.container {
+  max-width: 100%;
+}
+.logo {
+  display: flex;
+  background-color: black;
+  /*padding: 0.66rem .50rem;*/
+}
+/*simplify*/
+.logo img {
+  height: 1.5rem;
+  padding-right: 1rem;
+  padding-left: 0.5rem;
+  padding-top: .66rem;
+  padding-bottom: .66rem;
+}
+.logo span {
+  padding-top: .66rem;
+  padding-bottom: .66rem;
+}
+.banner {
+  display: block;
+  background-image: url("../../resources/images/background-image.jpeg");
+  background-position: center;
+  background-size: cover;
+  height: 25rem;
+  width: 100%;
+}
+.arrival {
+  display: inline-flex;
+  flex-direction: column;
+  background-color: black;
+  font-weight: bold;
+  width: 20rem;
+  margin-top: 9rem;
+  margin-left: 0;
+  padding-left: 3rem;
+
+}
+.arrival span {
+  font-size: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 0.125rem;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+.arrival h1 {
+  font-size: 2rem;
+  padding-top: 0.125rem;
+  margin-top: 0;
+  margin-left: 0;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  background-color: firebrick;
+}
+nav span {
+  display: inline;
+  padding: 0.75rem 0;
+  max-width: 960px;
+  text-align: center;
+
+}
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+.featured {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 4px solid black;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.image {
+  display: block;
+  justify-content: center;
+  align-content: center;
+  /*height: 100%;*/
+}
+.product img {
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  height: 9rem;
+
+}
+.description {
+  background-color: black;
+
+}
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.position {
+
+  flex-direction: column;
+}
+.title {
+  background-color: black;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+}
+.details {
+  color: black;
+}
+/*.location, .hours {
+  display: inline-flex;
+  flex-direction: column;
+  width: 35%;
+}*/
+footer {
+  background-color: black;
+}
