@@ -10,23 +10,23 @@ body{
 .container {
   max-width: 100%;
 }
-.logo {
-  display: flex;
+.logo-container {
+  /*width: 960px;
+  margin: auto;*/
   background-color: black;
-  /*padding: 0.66rem .50rem;*/
+  color: white;
+  padding: 0.66rem 0 0.66rem 0.5rem;
+}
+.logo {
+  width: 960px;
+  margin: auto;
 }
 /*simplify*/
 .logo img {
   height: 1.5rem;
-  padding-right: 1rem;
-  padding-left: 0.5rem;
-  padding-top: .66rem;
-  padding-bottom: .66rem;
+  margin-right: 1.5rem;
 }
-.logo span {
-  padding-top: .66rem;
-  padding-bottom: .66rem;
-}
+
 .banner {
   display: block;
   background-image: url("../../resources/images/background-image.jpeg");
@@ -34,6 +34,10 @@ body{
   background-size: cover;
   height: 25rem;
   width: 100%;
+}
+.arrival-container {
+  width: 960px;
+  margin: auto;
 }
 .arrival {
   display: inline-flex;
@@ -64,7 +68,7 @@ nav {
   flex-direction: row;
   margin: 0 auto;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: firebrick;
 }
 nav span {
@@ -81,7 +85,8 @@ nav span {
 .featured {
   display: flex;
   justify-content: space-around;
-  width: 100%;
+  width: 960px;
+  margin: auto;
 }
 .product {
   display: flex;
@@ -91,6 +96,11 @@ nav span {
   text-align: center;
   margin-top: 3rem;
   margin-bottom: 3rem;
+  width: 30%;
+}
+#center {
+  width: 960px;
+  margin: auto;
 }
 .image {
   display: block;
@@ -104,6 +114,7 @@ nav span {
   padding-top: 2rem;
   padding-bottom: 2rem;
   height: 9rem;
+  width: 9rem;
 
 }
 .description {
@@ -119,6 +130,13 @@ nav span {
   display: inline-flex;
   flex-direction: column;
 }
+.postion {
+  display: inline-flex;
+  width: 35%;
+  padding: 1rem 0 1rem 2rem;
+  background-color: black;
+  color: white;
+}
 .title {
   background-color: black;
   padding-top: 1rem;
@@ -133,6 +151,14 @@ nav span {
   flex-direction: column;
   width: 35%;
 }*/
+
 footer {
+  display: flex;
+  height: 5rem;
   background-color: black;
+  align-items: center;
+}
+.foot-container {
+  width: 960px;
+  margin: auto;
 }
