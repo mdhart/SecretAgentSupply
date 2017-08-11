@@ -77,6 +77,10 @@ nav span {
   max-width: 960px;
   text-align: center;
 }
+#mobile-nav {
+  display: none;
+  visibility: hidden;
+}
 .link {
   color: white;
   text-decoration: none;
@@ -161,4 +165,35 @@ footer {
 .foot-container {
   width: 960px;
   margin: auto;
+}
+@media only screen and (max-width: 1024px) {
+  .arrival span {
+    font-size: 0.77rem;
+  }
+  .arrival h1 {
+    font-size: 1rem;
+  }
+  #mobile-nav {
+    display: flex;
+    visibility: visible;
+    width: auto;
+    justify-content: center;
+  }
+  .link {
+    display: none;
+    visibility: hidden;
+  }
+  #thermal {
+    display: none;
+    visibility: hidden;
+  }
+  .product {
+    width: 47%;
+  }
+}
+@media only screen and (max-width: 470px) {
+  #watch {
+    display: none;
+    visibility: hidden;
+  }
 }
